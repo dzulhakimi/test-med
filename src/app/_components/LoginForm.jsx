@@ -15,7 +15,7 @@ import { SnackBar, TextField } from '../libs/era'
 import { useRouter } from 'next/navigation'
 import { Snackbar } from '@mui/material'
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://test-med-be.onrender.com';
 
 const AuthLogin = ({ title, subtitle, subtext }) => {
   const [username, setUsername] = useState('')

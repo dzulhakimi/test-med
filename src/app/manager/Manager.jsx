@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { Box, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Chip, Button, Stack, Snackbar, CircularProgress } from '@mui/material';
 import styles from './Manager.module.css';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://test-med-be.onrender.com';
 
 export default function Manager() {
   const [detailsOpen, setDetailsOpen] = useState(false);

@@ -38,7 +38,7 @@ export default function Dashboard() {
 
   useEffect(() => {
     const token = localStorage.getItem('token');
-    fetch("http://localhost:8080/api/resume/all", {
+    fetch("https://test-med-be.onrender.com/api/resume/all", {
       headers: {
         Authorization: `Bearer ${token}`,
       },

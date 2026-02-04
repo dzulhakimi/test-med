@@ -3,7 +3,7 @@ import { FaPlus, FaEdit, FaTrash } from "react-icons/fa";
 import { useRouter } from "next/navigation";
 import '../Dashboard.css';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://test-med-be.onrender.com';
 
 const summaryData = [
   { label: "Total Available Leaves", value: 28, color: "bg-green-100", text: "text-green-700" },
